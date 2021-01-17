@@ -4,7 +4,7 @@ recipients = [
     ["Sachin", "Sidhu", "Kumble"]
   ]
 
-def salutions(emails)
+def generate_salutions(emails)
     if emails.length ==1
         "Hello, #{emails[0]}"
     elsif emails.length ==2
@@ -16,6 +16,6 @@ end
 
 
 recipients.each do |emails|
-    puts salutions(emails)     
+    puts generate_salutions(emails)     
 end
     
