@@ -19,3 +19,11 @@ recipients.each do |emails|
     puts generate_salutions(emails)     
 end
     
+
+#synthesis problem 1
+
+def salute(name, greeting)
+    greeting.capitalize + " Mr. " + name.split[-1]
+end
+puts salute("Nelson Rolihlahla Mandela", "hello")
+puts salute("Sir Alan Turing", "welcome")
