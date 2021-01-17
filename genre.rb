@@ -14,3 +14,6 @@ arr = "mahe is wonderful".split('')
 puts arr
 arr1 = "mahe is wonderful".split(' ')
 puts arr1
+
+arr2 = "mahe is wonderful  so are you  my dear girl".chomp.split('  ')
+puts arr2
