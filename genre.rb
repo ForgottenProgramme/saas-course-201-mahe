@@ -10,10 +10,22 @@ else
 end
 
 #useless comment
+puts("\n\n")
+#spliting strings
 arr = "mahe is wonderful".split('')
 puts arr
+puts("\n")
 arr1 = "mahe is wonderful".split(' ')
 puts arr1
-
+puts("\n")
 arr2 = "mahe is wonderful  so are you  my dear girl".chomp.split('  ')
 puts arr2
+puts("\n")
+puts("\n\n")
+
+#joining the elements of array to form a string
+ar = ['1', '2', '3'].join
+puts ar
+puts("\n\n")
+ar2 = [1,2,3].join('-')
+puts ar2
