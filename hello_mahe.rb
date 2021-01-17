@@ -6,3 +6,5 @@ puts "Bye, #{name}"
 
 #some comment
 #some more meaningless comment
+
+#adding useless commits to see how git works from command line
