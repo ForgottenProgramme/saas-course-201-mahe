@@ -29,3 +29,7 @@ puts ar
 puts("\n\n")
 ar2 = [1,2,3].join('-')
 puts ar2
+puts("\n")
+#filer
+some_arr = [1,2,3,4,5,6,7,8].select{|num| num.even?}
+puts some_arr
