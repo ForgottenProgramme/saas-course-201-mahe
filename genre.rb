@@ -10,3 +10,7 @@ else
 end
 
 #useless comment
+arr = "mahe is wonderful".split('')
+puts arr
+arr1 = "mahe is wonderful".split(' ')
+puts arr1
